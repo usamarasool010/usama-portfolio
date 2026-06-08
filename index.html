@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Usama Rasool | Plant Pathology & Agriculture Specialist</title>
+    <meta name="description" content="Muhammad Usama Rasool - Plant Pathology graduate from MNS University of Agriculture, Multan. Expert in crop scouting, disease identification, IPM, and field reporting.">
+    <meta name="keywords" content="Plant Pathology, Agriculture, Crop Scouting, IPM, Pakistan Agriculture, MNS University">
+    <meta name="author" content="Muhammad Usama Rasool">
+    <meta property="og:title" content="Muhammad Usama Rasool | Plant Pathology Specialist">
+    <meta property="og:description" content="Professional portfolio of Muhammad Usama Rasool - Agriculture & Plant Pathology Expert">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --bg: #000000;
+            --bg-elevated: #0a0a0a;
+            --bg-card: #111111;
+            --bg-glass: rgba(255,255,255,0.03);
+            --border: rgba(255,255,255,0.08);
+            --border-hover: rgba(255,255,255,0.15);
+            --text: #f5f5f7;
+            --text-secondary: #86868b;
+            --text-tertiary: #6e6e73;
+            --accent: #10b981;
+            --accent-light: #34d399;
+            --accent-glow: rgba(16,185,129,0.3);
+            --gradient-start: #10b981;
+            --gradient-end: #059669;
+            --surface: rgba(255,255,255,0.04);
+            --surface-hover: rgba(255,255,255,0.08);
+            --radius: 24px;
+            --radius-sm: 16px;
+            --radius-xs: 12px;
+            --transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            --transition-fast: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            --font-main: 'Inter', -apple-system, system-ui, sans-serif;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --shadow-glow: 0 0 60px rgba(16,185,129,0.15);
+            --shadow-card: 0 8px 32px rgba(0,0,0,0.4);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { 
+            font-family: var(--font-main); 
+            background: var(--bg); 
+            color: var(--text); 
+            line-height: 1.6; 
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        ::selection { background: var(--accent); color: #000; }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border-hover); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
+
+        .preloader {
+            position: fixed; inset: 0; z-index: 99999;
+            background: var(--bg); display: flex;
+            align-items: center; justify-content: center;
+            transition: opacity 0.8s cubic-bezier(0.23, 1, 0.32, 1), visibility 0.8s;
+        }
+        .preloader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+        .preloader-ring {
+            width: 80px; height: 80px; margin: 0 auto 32px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .preloader-text {
+            font-size: 0.75rem; letter-spacing: 4px;
+            text-transform: uppercase; color: var(--text-tertiary);
+            font-weight: 500;
+        }
+        .preloader-progress {
+            width: 120px; height: 2px; background: var(--border);
+            border-radius: 1px; margin: 20px auto 0; overflow: hidden;
+        }
+        .preloader-progress-bar {
+            height: 100%; width: 0%; background: var(--accent);
+            border-radius: 1px; transition: width 0.3s ease;
+        }
+
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            padding: 20px 0; transition: var(--transition);
+            background: transparent;
+        }
+        .nav.scrolled {
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 0;
+        }
+        .nav .container {
+            max-width: 1200px; margin: 0 auto; padding: 0 24px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .nav-logo {
+            font-size: 1.1rem; font-weight: 700; color: var(--text);
+            text-decoration: none; letter-spacing: -0.5px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .nav-logo-dot {
+            width: 8px; height: 8px; background: var(--accent);
+            border-radius: 50%; display: inline-block;
+            box-shadow: 0 0 12px var(--accent-glow);
+        }
+        .nav-links {
+            display: flex; gap: 4px; list-style: none; align-items: center;
+        }
+        .nav-link {
+            text-decoration: none; color: var(--text-secondary);
+            font-size: 0.85rem; font-weight: 500; padding: 8px 16px;
+            border-radius: 100px; transition: var(--transition);
+            position: relative; overflow: hidden;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--text); background: var(--surface-hover);
+        }
+        .nav-cta {
+            background: var(--accent); color: #000 !important;
+            padding: 10px 24px !important; font-weight: 600;
+            margin-left: 8px;
+        }
+        .nav-cta:hover {
+            background: var(--accent-light); transform: translateY(-2px);
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .nav-toggle {
+            display: none; flex-direction: column; gap: 5px;
+            cursor: pointer; padding: 10px; background: none; border: none;
+        }
+        .nav-toggle span {
+            width: 20px; height: 1.5px; background: var(--text);
+            border-radius: 1px; transition: var(--transition);
+        }
+
+        .hero {
+            min-height: 100vh; position: relative;
+            display: flex; align-items: center; overflow: hidden;
+            background: var(--bg);
+        }
+        #hero-canvas {
+            position: absolute; inset: 0; z-index: 0;
+        }
+        .hero .container {
+            max-width: 1200px; margin: 0 auto; padding: 0 24px;
+            position: relative; z-index: 1;
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 80px; align-items: center;
+        }
+        .hero-badge {
+            display: inline-flex; align-items: center; gap: 10px;
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 10px 20px; border-radius: 100px;
+            font-size: 0.8rem; color: var(--accent-light);
+            font-weight: 600; margin-bottom: 32px;
+            backdrop-filter: blur(10px);
+        }
+        .hero-badge-dot {
+            width: 6px; height: 6px; background: var(--accent);
+            border-radius: 50%; animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 800; line-height: 1.05;
+            letter-spacing: -3px; margin-bottom: 24px;
+        }
+        .hero-title .line { display: block; }
+        .hero-title .gradient {
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem; color: var(--text-secondary);
+            font-weight: 400; margin-bottom: 16px;
+            min-height: 2rem;
+        }
+        .hero-subtitle .cursor {
+            color: var(--accent); animation: blink 1s step-end infinite;
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+        .hero-desc {
+            font-size: 1rem; color: var(--text-tertiary);
+            line-height: 1.8; max-width: 480px; margin-bottom: 40px;
+        }
+        .hero-buttons {
+            display: flex; gap: 16px; margin-bottom: 48px;
+        }
+        .btn {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 16px 32px; border-radius: 100px;
+            font-weight: 600; font-size: 0.95rem;
+            text-decoration: none; transition: var(--transition);
+            border: none; cursor: pointer; font-family: inherit;
+            position: relative; overflow: hidden;
+        }
+        .btn-primary {
+            background: var(--accent); color: #000;
+            box-shadow: 0 4px 24px var(--accent-glow);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px var(--accent-glow);
+        }
+        .btn-glow::before {
+            content: ''; position: absolute; inset: -2px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light), var(--accent));
+            border-radius: 100px; z-index: -1; opacity: 0;
+            transition: opacity 0.3s; filter: blur(12px);
+        }
+        .btn-glow:hover::before { opacity: 0.6; }
+        .btn-outline {
+            background: transparent; color: var(--text);
+            border: 1px solid var(--border-hover);
+        }
+        .btn-outline:hover {
+            background: var(--surface-hover); border-color: var(--text-secondary);
+            transform: translateY(-3px);
+        }
+        .hero-stats {
+            display: flex; gap: 32px;
+        }
+        .stat { text-align: center; }
+        .stat-value {
+            font-size: 2rem; font-weight: 800; color: var(--accent);
+            display: block; line-height: 1;
+        }
+        .stat-label {
+            font-size: 0.75rem; color: var(--text-tertiary);
+            text-transform: uppercase; letter-spacing: 1px;
+            margin-top: 6px;
+        }
+        .hero-visual {
+            display: flex; justify-content: center; align-items: center;
+            position: relative;
+        }
+        .hero-image-wrapper {
+            width: 400px; height: 400px; position: relative;
+        }
+        .hero-image-ring {
+            position: absolute; border-radius: 50%;
+            border: 1px solid var(--border);
+        }
+        .ring-1 { inset: -20px; animation: rotate 30s linear infinite; }
+        .ring-2 { inset: -40px; border-style: dashed; opacity: 0.5; animation: rotate 40s linear infinite reverse; }
+        .ring-3 { inset: -60px; opacity: 0.3; animation: rotate 50s linear infinite; }
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        .hero-image-main {
+            width: 100%; height: 100%; border-radius: 50%;
+            overflow: hidden; position: relative;
+            border: 3px solid var(--border);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5), var(--shadow-glow);
+        }
+        .hero-image-main img {
+            width: 100%; height: 100%; object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .hero-image-main:hover img { transform: scale(1.08); }
+        .hero-image-overlay {
+            position: absolute; inset: 0;
+            background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.6) 100%);
+            border-radius: 50%;
+        }
+        .floating-card {
+            position: absolute; background: var(--bg-glass);
+            backdrop-filter: blur(20px); border: 1px solid var(--border);
+            padding: 14px 20px; border-radius: var(--radius-sm);
+            display: flex; align-items: center; gap: 10px;
+            color: var(--text); font-weight: 600; font-size: 0.85rem;
+            animation: float 6s ease-in-out infinite;
+            box-shadow: var(--shadow-card);
+        }
+        .floating-card i { color: var(--accent); font-size: 1.1rem; }
+        .fc-1 { top: 20px; right: -20px; animation-delay: 0s; }
+        .fc-2 { bottom: 80px; left: -40px; animation-delay: 2s; }
+        .fc-3 { top: 50%; left: -70px; animation-delay: 4s; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .scroll-hint {
+            position: absolute; bottom: 40px; left: 50%;
+            transform: translateX(-50%); display: flex;
+            flex-direction: column; align-items: center; gap: 12px;
+            animation: fadeInUp 1s ease 1s both;
+        }
+        .scroll-mouse {
+            width: 24px; height: 38px; border: 1.5px solid var(--border-hover);
+            border-radius: 12px; display: flex; justify-content: center; padding-top: 8px;
+        }
+        .scroll-wheel {
+            width: 3px; height: 7px; background: var(--accent);
+            border-radius: 2px; animation: scrollMove 2s infinite;
+        }
+        @keyframes scrollMove {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(12px); opacity: 0; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        section { padding: 120px 0; position: relative; }
+        .container {
+            max-width: 1200px; margin: 0 auto; padding: 0 24px;
+        }
+        .section-header {
+            text-align: center; margin-bottom: 80px;
+        }
+        .section-tag {
+            display: inline-block; background: var(--surface);
+            border: 1px solid var(--border); color: var(--accent-light);
+            padding: 8px 20px; border-radius: 100px;
+            font-size: 0.75rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem); font-weight: 800;
+            letter-spacing: -2px; margin-bottom: 16px;
+            line-height: 1.1;
+        }
+        .section-title .gradient {
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .section-desc {
+            font-size: 1.1rem; color: var(--text-secondary);
+            max-width: 600px; margin: 0 auto;
+        }
+
+        .about { background: var(--bg-elevated); }
+        .about-grid {
+            display: grid; grid-template-columns: 1fr 1.5fr;
+            gap: 60px; align-items: start;
+        }
+        .about-image {
+            position: sticky; top: 120px;
+        }
+        .about-image-wrapper { position: relative; }
+        .about-image-wrapper img {
+            width: 100%; border-radius: var(--radius);
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+        }
+        .about-image-wrapper:hover img {
+            transform: translateY(-8px);
+            box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+        }
+        .about-exp {
+            position: absolute; bottom: -20px; right: -20px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            color: #000; padding: 24px 32px; border-radius: var(--radius-sm);
+            text-align: center; font-weight: 700;
+            box-shadow: 0 12px 40px var(--accent-glow);
+            animation: float 4s ease-in-out infinite;
+        }
+        .about-exp span { display: block; font-size: 2.5rem; font-weight: 800; line-height: 1; }
+        .about-exp small { font-size: 0.8rem; opacity: 0.9; }
+        .about-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 40px;
+            margin-bottom: 24px; transition: var(--transition);
+            position: relative; overflow: hidden;
+        }
+        .about-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-card);
+        }
+        .about-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            transform: scaleX(0); transition: transform 0.5s;
+            transform-origin: left;
+        }
+        .about-card:hover::before { transform: scaleX(1); }
+        .about-card h3 {
+            font-size: 1.3rem; font-weight: 700; margin-bottom: 16px;
+            display: flex; align-items: center; gap: 12px;
+        }
+        .about-card h3 i { color: var(--accent); }
+        .about-card p { color: var(--text-secondary); line-height: 1.8; }
+        .about-info {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 16px; margin-bottom: 24px;
+        }
+        .info-item {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius-sm); padding: 24px;
+            display: flex; align-items: flex-start; gap: 16px;
+            transition: var(--transition);
+        }
+        .info-item:hover {
+            border-color: var(--accent); transform: translateY(-4px);
+            box-shadow: var(--shadow-glow);
+        }
+        .info-icon {
+            min-width: 48px; height: 48px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: var(--radius-xs); display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.2rem;
+        }
+        .info-item h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 4px; }
+        .info-item p { font-size: 0.85rem; color: var(--text-tertiary); }
+        .about-objective {
+            display: flex; gap: 20px; padding: 32px;
+            background: linear-gradient(135deg, rgba(16,185,129,0.05), rgba(245,158,11,0.03));
+            border: 1px solid var(--border); border-radius: var(--radius);
+        }
+        .obj-icon {
+            min-width: 56px; height: 56px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: var(--radius-xs); display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.4rem;
+        }
+        .obj-content h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+        .obj-content p { color: var(--text-secondary); line-height: 1.7; }
+
+        .experience { background: var(--bg); }
+        .timeline {
+            position: relative; max-width: 900px; margin: 0 auto;
+        }
+        .timeline-line {
+            position: absolute; left: 50%; transform: translateX(-50%);
+            width: 2px; height: 100%; background: var(--border);
+        }
+        .timeline-progress {
+            width: 100%; height: 0%;
+            background: linear-gradient(to bottom, var(--accent), var(--accent-light));
+            transition: height 0.5s ease;
+        }
+        .timeline-item {
+            position: relative; margin-bottom: 60px;
+            display: flex; justify-content: center;
+        }
+        .timeline-item:last-child { margin-bottom: 0; }
+        .timeline-dot {
+            position: absolute; left: 50%; transform: translateX(-50%);
+            width: 48px; height: 48px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: 50%; display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.1rem;
+            border: 4px solid var(--bg);
+            box-shadow: 0 0 30px var(--accent-glow);
+            z-index: 2; transition: var(--transition);
+        }
+        .timeline-dot:hover { transform: translateX(-50%) scale(1.15); }
+        .timeline-card {
+            width: 45%; background: var(--bg-card);
+            border: 1px solid var(--border); border-radius: var(--radius);
+            overflow: hidden; transition: var(--transition);
+        }
+        .timeline-item:nth-child(odd) .timeline-card { margin-left: auto; margin-right: 55%; }
+        .timeline-item:nth-child(even) .timeline-card { margin-right: auto; margin-left: 55%; }
+        .timeline-card:hover {
+            transform: translateY(-8px); border-color: var(--border-hover);
+            box-shadow: var(--shadow-card);
+        }
+        .tc-image { position: relative; overflow: hidden; height: 200px; }
+        .tc-image img {
+            width: 100%; height: 100%; object-fit: cover;
+            transition: transform 0.6s;
+        }
+        .timeline-card:hover .tc-image img { transform: scale(1.08); }
+        .tc-image-overlay {
+            position: absolute; bottom: 0; left: 0; right: 0;
+            padding: 16px 24px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            display: flex; align-items: center; gap: 8px;
+            font-size: 0.85rem; color: var(--text-secondary);
+        }
+        .tc-image-overlay i { color: var(--accent); }
+        .tc-content { padding: 32px; }
+        .tc-header {
+            display: flex; justify-content: space-between;
+            align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
+        }
+        .tc-date {
+            display: flex; align-items: center; gap: 8px;
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 8px 16px; border-radius: 100px;
+            font-size: 0.8rem; font-weight: 600; color: var(--accent-light);
+        }
+        .tc-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+        .tc-tag {
+            background: var(--surface); color: var(--text-secondary);
+            padding: 6px 14px; border-radius: 100px;
+            font-size: 0.75rem; font-weight: 600;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        .tc-tag:hover {
+            background: var(--accent); color: #000; border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .tc-content h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 6px; }
+        .tc-content h4 { font-size: 0.95rem; color: var(--accent); font-weight: 600; margin-bottom: 20px; }
+        .tc-list { list-style: none; }
+        .tc-list li {
+            padding: 10px 0 10px 28px; position: relative;
+            color: var(--text-secondary); line-height: 1.7;
+            border-bottom: 1px solid var(--border);
+        }
+        .tc-list li:last-child { border-bottom: none; }
+        .tc-list li::before {
+            content: ''; position: absolute; left: 0; top: 16px;
+            width: 8px; height: 8px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: 50%; box-shadow: 0 0 10px var(--accent-glow);
+        }
+        .tc-list strong { color: var(--text); }
+
+        .skills { background: var(--bg-elevated); }
+        .skills-grid {
+            display: grid; grid-template-columns: 2fr 1fr; gap: 40px;
+        }
+        .skills-main {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+        }
+        .skill-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 40px 32px;
+            text-align: center; transition: var(--transition);
+            position: relative; overflow: hidden;
+        }
+        .skill-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            transform: scaleX(0); transition: transform 0.5s;
+        }
+        .skill-card:hover::before { transform: scaleX(1); }
+        .skill-card:hover {
+            transform: translateY(-8px); border-color: var(--border-hover);
+            box-shadow: var(--shadow-card);
+        }
+        .skill-icon {
+            width: 64px; height: 64px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: var(--radius-sm); display: flex;
+            align-items: center; justify-content: center;
+            margin: 0 auto 20px; color: #000; font-size: 1.6rem;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .skill-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
+        .skill-card p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px; }
+        .skill-bar {
+            height: 6px; background: var(--border); border-radius: 3px;
+            overflow: hidden; position: relative;
+        }
+        .skill-fill {
+            height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            border-radius: 3px; width: 0%; transition: width 1.5s cubic-bezier(0.23, 1, 0.32, 1);
+            position: relative;
+        }
+        .skill-fill::after {
+            content: attr(data-value); position: absolute; right: 0; top: -28px;
+            font-size: 0.8rem; font-weight: 700; color: var(--accent);
+            opacity: 0; transition: opacity 0.3s 1.2s;
+        }
+        .skill-fill.active::after { opacity: 1; }
+        .skills-sidebar { display: flex; flex-direction: column; gap: 24px; }
+        .skill-category {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 28px;
+            transition: var(--transition);
+        }
+        .skill-category:hover { border-color: var(--border-hover); }
+        .skill-category h4 {
+            font-size: 1rem; font-weight: 700; margin-bottom: 20px;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .skill-category h4 i { color: var(--accent); }
+        .skill-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+        .pill {
+            background: var(--surface); color: var(--text-secondary);
+            padding: 10px 18px; border-radius: 100px;
+            font-weight: 600; font-size: 0.8rem;
+            border: 1px solid var(--border);
+            transition: var(--transition); cursor: default;
+        }
+        .pill:hover {
+            background: var(--accent); color: #000;
+            border-color: var(--accent); transform: translateY(-3px);
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .lang-item {
+            display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+        }
+        .lang-item:last-child { margin-bottom: 0; }
+        .lang-item span:first-child { min-width: 60px; font-weight: 600; font-size: 0.9rem; }
+        .lang-bar { flex: 1; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+        .lang-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-light)); border-radius: 3px; }
+        .lang-level { min-width: 80px; text-align: right; font-size: 0.8rem; color: var(--text-tertiary); font-weight: 500; }
+
+        .education { background: var(--bg); }
+        .edu-timeline { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 30px; }
+        .edu-item { display: flex; gap: 30px; align-items: flex-start; position: relative; }
+        .edu-line { display: flex; flex-direction: column; align-items: center; min-width: 60px; }
+        .edu-dot {
+            width: 18px; height: 18px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: 50%; border: 4px solid var(--bg);
+            box-shadow: 0 0 0 4px rgba(16,185,129,0.2), 0 0 20px var(--accent-glow);
+            z-index: 2;
+        }
+        .edu-item:not(:last-child) .edu-line::after {
+            content: ''; width: 2px; flex: 1;
+            background: linear-gradient(to bottom, var(--accent), var(--border));
+            margin-top: 10px;
+        }
+        .edu-card {
+            flex: 1; background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 32px;
+            transition: var(--transition); position: relative; overflow: hidden;
+        }
+        .edu-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-card); }
+        .edu-item.active .edu-card { border-color: var(--accent); }
+        .edu-badge {
+            position: absolute; top: 20px; right: 20px;
+            background: linear-gradient(135deg, #f59e0b, #fbbf24);
+            color: #000; padding: 6px 16px; border-radius: 100px;
+            font-size: 0.75rem; font-weight: 700;
+        }
+        .edu-year {
+            position: absolute; top: 20px; left: 20px;
+            background: var(--surface); border: 1px solid var(--border);
+            color: var(--accent-light); padding: 8px 16px;
+            border-radius: 100px; font-size: 0.8rem; font-weight: 700;
+        }
+        .edu-icon {
+            width: 56px; height: 56px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: var(--radius-sm); display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.4rem; margin-bottom: 20px;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .edu-content h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+        .edu-content h4 { font-size: 0.95rem; color: var(--accent); font-weight: 600; margin-bottom: 8px; }
+        .edu-institute { color: var(--text-secondary); font-weight: 500; margin-bottom: 16px; font-size: 0.9rem; }
+        .edu-courses { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+        .edu-courses span {
+            background: var(--surface); color: var(--text-secondary);
+            padding: 6px 14px; border-radius: 100px;
+            font-size: 0.8rem; border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        .edu-courses span:hover {
+            background: var(--accent); color: #000; border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .edu-grade {
+            display: flex; align-items: center; gap: 10px; margin-top: 12px;
+        }
+        .grade-label { font-size: 0.85rem; color: var(--text-tertiary); }
+        .grade-value {
+            background: linear-gradient(135deg, #f59e0b, #fbbf24);
+            color: #000; padding: 4px 12px; border-radius: 100px;
+            font-size: 0.85rem; font-weight: 700;
+        }
+
+        .certifications { background: var(--bg-elevated); }
+        .certs-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        .cert-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 32px;
+            display: flex; gap: 20px; align-items: flex-start;
+            transition: var(--transition); position: relative; overflow: hidden;
+        }
+        .cert-card::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%;
+            background: linear-gradient(to bottom, var(--accent), var(--accent-light));
+            transform: scaleY(0); transition: transform 0.5s;
+        }
+        .cert-card:hover::before { transform: scaleY(1); }
+        .cert-card:hover {
+            transform: translateY(-6px); border-color: var(--border-hover);
+            box-shadow: var(--shadow-card);
+        }
+        .cert-icon {
+            min-width: 52px; height: 52px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: var(--radius-sm); display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.3rem;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .cert-content h4 { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; line-height: 1.4; }
+        .cert-content p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 12px; }
+        .cert-badge {
+            display: inline-block; background: var(--surface);
+            border: 1px solid var(--border); color: var(--accent-light);
+            padding: 4px 14px; border-radius: 100px;
+            font-size: 0.75rem; font-weight: 700;
+        }
+
+        .contact { background: var(--bg); position: relative; overflow: hidden; }
+        .contact::before {
+            content: ''; position: absolute; inset: 0;
+            background: radial-gradient(ellipse at 20% 50%, rgba(16,185,129,0.05) 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 20%, rgba(245,158,11,0.03) 0%, transparent 50%);
+        }
+        .contact-wrapper {
+            display: grid; grid-template-columns: 1fr 1.2fr;
+            gap: 48px; position: relative; z-index: 1;
+        }
+        .contact-info { display: flex; flex-direction: column; gap: 20px; }
+        .contact-card {
+            display: flex; align-items: center; gap: 20px;
+            padding: 24px; background: var(--bg-card);
+            border: 1px solid var(--border); border-radius: var(--radius);
+            transition: var(--transition);
+        }
+        .contact-card:hover {
+            transform: translateX(10px); border-color: var(--accent);
+            box-shadow: var(--shadow-glow);
+        }
+        .contact-icon {
+            min-width: 52px; height: 52px;
+            background: linear-gradient(135deg, var(--accent), var(--gradient-end));
+            border-radius: var(--radius-sm); display: flex;
+            align-items: center; justify-content: center;
+            color: #000; font-size: 1.2rem;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .contact-details h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 6px; }
+        .contact-details a, .contact-details p {
+            color: var(--text-secondary); text-decoration: none;
+            font-size: 0.9rem; transition: var(--transition);
+        }
+        .contact-details a:hover { color: var(--accent-light); }
+        .contact-form-wrapper {
+            background: var(--bg-card); border: 1px solid var(--border);
+            backdrop-filter: blur(20px); padding: 48px;
+            border-radius: var(--radius);
+        }
+        .form-header { text-align: center; margin-bottom: 32px; }
+        .form-header h3 { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; }
+        .form-header p { color: var(--text-secondary); font-size: 0.95rem; }
+        .form-group { position: relative; margin-bottom: 24px; }
+        .form-group input, .form-group textarea {
+            width: 100%; padding: 16px 16px 16px 52px;
+            background: var(--surface); border: 2px solid var(--border);
+            border-radius: var(--radius-sm); font-size: 1rem;
+            color: var(--text); transition: var(--transition);
+            font-family: inherit;
+        }
+        .form-group input::placeholder, .form-group textarea::placeholder { color: var(--text-tertiary); }
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none; border-color: var(--accent);
+            background: var(--bg-glass); box-shadow: 0 0 0 4px rgba(16,185,129,0.1);
+        }
+        .form-group i {
+            position: absolute; left: 18px; top: 50%;
+            transform: translateY(-50%); color: var(--text-tertiary);
+            font-size: 1.1rem; transition: var(--transition);
+        }
+        .form-group textarea ~ i { top: 24px; transform: none; }
+        .form-group input:focus ~ i, .form-group textarea:focus ~ i { color: var(--accent); }
+        .form-group.error input, .form-group.error textarea {
+            border-color: #ef4444; background: rgba(239,68,68,0.05);
+        }
+        .form-group.error i { color: #ef4444; }
+        .error-msg {
+            display: none; color: #ef4444; font-size: 0.85rem;
+            margin-top: 6px; padding-left: 52px;
+        }
+        .form-group.error .error-msg { display: block; animation: fadeIn 0.3s; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+        .btn-submit {
+            width: 100%; justify-content: center;
+            background: var(--accent); color: #000;
+        }
+        .btn-submit:hover { transform: translateY(-3px); box-shadow: 0 12px 40px var(--accent-glow); }
+        .btn-submit.success { background: linear-gradient(135deg, #22c55e, #16a34a); }
+        .btn-submit.error { background: linear-gradient(135deg, #ef4444, #dc2626); }
+        .btn-submit.shake { animation: shake 0.5s; }
+        @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-10px); } 75% { transform: translateX(10px); } }
+        .form-status {
+            text-align: center; margin-top: 16px; padding: 12px;
+            border-radius: var(--radius-sm); font-size: 0.9rem;
+            display: none;
+        }
+        .form-status.success { display: block; background: rgba(34,197,94,0.1); color: #22c55e; border: 1px solid rgba(34,197,94,0.2); }
+        .form-status.error { display: block; background: rgba(239,68,68,0.1); color: #ef4444; border: 1px solid rgba(239,68,68,0.2); }
+
+        .wa-chat { position: fixed; bottom: 30px; right: 30px; z-index: 999; }
+        .wa-toggle {
+            width: 60px; height: 60px;
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            border-radius: 50%; display: flex;
+            align-items: center; justify-content: center;
+            color: #fff; font-size: 1.8rem; cursor: pointer;
+            box-shadow: 0 8px 32px rgba(37,211,102,0.4);
+            transition: var(--transition); border: none;
+            position: relative;
+        }
+        .wa-toggle:hover { transform: scale(1.1) rotate(10deg); box-shadow: 0 12px 40px rgba(37,211,102,0.5); }
+        .wa-badge {
+            position: absolute; top: -4px; right: -4px;
+            width: 22px; height: 22px; background: #ef4444;
+            color: #fff; border-radius: 50%; font-size: 0.75rem;
+            font-weight: 700; display: flex; align-items: center; justify-content: center;
+            animation: pulse 2s infinite;
+        }
+        .wa-panel {
+            position: absolute; bottom: 80px; right: 0;
+            width: 360px; background: var(--bg-card);
+            border: 1px solid var(--border); border-radius: var(--radius);
+            box-shadow: var(--shadow-card); overflow: hidden;
+            transform: scale(0); transform-origin: bottom right;
+            transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s;
+            opacity: 0;
+        }
+        .wa-panel.active { transform: scale(1); opacity: 1; }
+        .wa-header {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            padding: 20px; display: flex; align-items: center; gap: 15px; color: #fff;
+        }
+        .wa-avatar {
+            width: 48px; height: 48px; border-radius: 50%;
+            overflow: hidden; border: 3px solid rgba(255,255,255,0.3);
+        }
+        .wa-avatar img { width: 100%; height: 100%; object-fit: cover; }
+        .wa-info h4 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+        .wa-status { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; opacity: 0.9; }
+        .wa-status-dot { width: 8px; height: 8px; background: #4ade80; border-radius: 50%; animation: pulse 2s infinite; }
+        .wa-close {
+            margin-left: auto; background: none; border: none;
+            color: #fff; font-size: 1.2rem; cursor: pointer;
+            width: 36px; height: 36px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            transition: var(--transition);
+        }
+        .wa-close:hover { background: rgba(255,255,255,0.2); }
+        .wa-body {
+            padding: 20px; max-height: 300px; overflow-y: auto;
+            background: var(--bg-elevated);
+        }
+        .wa-msg {
+            background: var(--bg-card); border: 1px solid var(--border);
+            padding: 14px 18px; border-radius: var(--radius-sm);
+            margin-bottom: 12px; max-width: 85%; box-shadow: var(--shadow-sm);
+        }
+        .wa-msg p { font-size: 0.9rem; color: var(--text); margin-bottom: 6px; }
+        .wa-msg .time { font-size: 0.75rem; color: var(--text-tertiary); }
+        .wa-quick {
+            display: flex; flex-wrap: wrap; gap: 8px; padding: 0 20px 16px;
+        }
+        .wa-quick-btn {
+            background: var(--surface); border: 1px solid var(--border);
+            color: var(--text-secondary); padding: 8px 16px;
+            border-radius: 100px; font-size: 0.8rem; cursor: pointer;
+            transition: var(--transition); font-family: inherit;
+        }
+        .wa-quick-btn:hover { background: var(--accent); color: #000; border-color: var(--accent); }
+        .wa-footer {
+            padding: 16px 20px; background: var(--bg-card);
+            border-top: 1px solid var(--border);
+        }
+        .wa-footer input {
+            width: 100%; padding: 12px 16px;
+            background: var(--surface); border: 2px solid var(--border);
+            border-radius: 100px; font-size: 0.9rem; color: var(--text);
+            font-family: inherit; margin-bottom: 10px;
+        }
+        .wa-footer input:focus { outline: none; border-color: #25d366; }
+        .wa-send {
+            width: 100%; padding: 12px;
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: #fff; border: none; border-radius: 100px;
+            font-weight: 600; cursor: pointer; transition: var(--transition);
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+            font-family: inherit; font-size: 0.95rem;
+        }
+        .wa-send:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,0.3); }
+
+        .footer {
+            background: var(--bg-elevated); border-top: 1px solid var(--border);
+            padding: 80px 0 30px;
+        }
+        .footer-content {
+            display: flex; justify-content: space-between;
+            align-items: center; margin-bottom: 50px;
+            padding-bottom: 50px; border-bottom: 1px solid var(--border);
+            flex-wrap: wrap; gap: 30px;
+        }
+        .footer-brand .logo { color: var(--text); margin-bottom: 12px; display: inline-block; }
+        .footer-brand p { color: var(--text-tertiary); font-size: 0.9rem; }
+        .footer-links { display: flex; gap: 32px; flex-wrap: wrap; }
+        .footer-links a {
+            color: var(--text-secondary); text-decoration: none;
+            font-weight: 500; transition: var(--transition); position: relative;
+        }
+        .footer-links a::after {
+            content: ''; position: absolute; bottom: -5px; left: 0;
+            width: 0; height: 2px; background: var(--accent); transition: var(--transition);
+        }
+        .footer-links a:hover { color: var(--text); }
+        .footer-links a:hover::after { width: 100%; }
+        .footer-social { display: flex; gap: 16px; }
+        .footer-social a {
+            width: 44px; height: 44px; background: var(--surface);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: var(--text-secondary); text-decoration: none; transition: var(--transition);
+            font-size: 1rem; border: 1px solid var(--border);
+        }
+        .footer-social a:hover {
+            background: var(--accent); color: #000; transform: translateY(-5px);
+            box-shadow: 0 8px 24px var(--accent-glow); border-color: var(--accent);
+        }
+        .footer-bottom { text-align: center; }
+        .footer-bottom p { color: var(--text-tertiary); font-size: 0.85rem; }
+        .footer-bottom .ref { color: var(--accent); font-weight: 600; }
+
+        .back-top {
+            position: fixed; bottom: 30px; left: 30px;
+            width: 48px; height: 48px;
+            background: var(--accent); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            color: #000; font-size: 1.1rem; cursor: pointer; z-index: 998;
+            box-shadow: 0 8px 24px var(--accent-glow);
+            transition: var(--transition); opacity: 0;
+            transform: translateY(20px); pointer-events: none; border: none;
+        }
+        .back-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+        .back-top:hover { transform: translateY(-5px); box-shadow: 0 12px 32px var(--accent-glow); }
+
+        .reveal {
+            opacity: 0; transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-left { transform: translateX(-40px); }
+        .reveal-right { transform: translateX(40px); }
+        .reveal-left.visible, .reveal-right.visible { transform: translateX(0); }
+
+        .cv-modal {
+            position: fixed; inset: 0; z-index: 10000;
+            background: rgba(0,0,0,0.8); backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; visibility: hidden; transition: all 0.4s;
+        }
+        .cv-modal.active { opacity: 1; visibility: visible; }
+        .cv-modal-content {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 40px; max-width: 500px;
+            width: 90%; transform: scale(0.9); transition: transform 0.4s;
+        }
+        .cv-modal.active .cv-modal-content { transform: scale(1); }
+        .cv-modal h3 { font-size: 1.5rem; margin-bottom: 16px; }
+        .cv-modal p { color: var(--text-secondary); margin-bottom: 24px; }
+        .cv-options { display: flex; flex-direction: column; gap: 12px; }
+        .cv-option {
+            display: flex; align-items: center; gap: 16px;
+            padding: 20px; background: var(--surface); border: 1px solid var(--border);
+            border-radius: var(--radius-sm); cursor: pointer; transition: var(--transition);
+            text-decoration: none; color: var(--text);
+        }
+        .cv-option:hover { border-color: var(--accent); background: var(--bg-glass); }
+        .cv-option i { font-size: 1.5rem; color: var(--accent); }
+        .cv-option div h4 { font-size: 1rem; margin-bottom: 4px; }
+        .cv-option div p { font-size: 0.85rem; color: var(--text-tertiary); margin: 0; }
+        .cv-close {
+            position: absolute; top: 20px; right: 20px;
+            background: none; border: none; color: var(--text);
+            font-size: 1.5rem; cursor: pointer; width: 40px; height: 40px;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            transition: var(--transition);
+        }
+        .cv-close:hover { background: var(--surface); }
+
+        @media (max-width: 1024px) {
+            .hero .container { gap: 40px; }
+            .hero-image-wrapper { width: 320px; height: 320px; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-image { position: relative; top: 0; max-width: 400px; margin: 0 auto; }
+            .skills-grid { grid-template-columns: 1fr; }
+            .contact-wrapper { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .nav-toggle { display: flex; }
+            .nav-links {
+                position: fixed; top: 0; right: -100%; width: 80%; max-width: 400px;
+                height: 100vh; background: var(--bg-card); flex-direction: column;
+                align-items: flex-start; justify-content: flex-start;
+                padding: 100px 40px 40px; transition: var(--transition);
+                box-shadow: -10px 0 30px rgba(0,0,0,0.3); border-left: 1px solid var(--border);
+            }
+            .nav-links.active { right: 0; }
+            .nav-links a { color: var(--text) !important; font-size: 1.1rem; padding: 12px 0; width: 100%; border-radius: 0; }
+            .nav-cta { display: none; }
+            .hero .container { grid-template-columns: 1fr; text-align: center; }
+            .hero-title { font-size: 2.5rem; }
+            .hero-stats { justify-content: center; flex-wrap: wrap; }
+            .hero-buttons { justify-content: center; flex-wrap: wrap; }
+            .hero-visual { order: -1; }
+            .hero-image-wrapper { width: 250px; height: 250px; }
+            .floating-card { display: none; }
+            .about-info { grid-template-columns: 1fr; }
+            .timeline-line { left: 20px; }
+            .timeline-dot { left: 20px; transform: translateX(-50%); }
+            .timeline-item:nth-child(odd) .timeline-card,
+            .timeline-item:nth-child(even) .timeline-card { width: calc(100% - 60px); margin-left: 50px !important; margin-right: 0 !important; }
+            .skills-main { grid-template-columns: 1fr; }
+            .certs-grid { grid-template-columns: 1fr; }
+            .edu-item { flex-direction: column; }
+            .edu-line { flex-direction: row; min-width: auto; }
+            .edu-item:not(:last-child) .edu-line::after { width: 100%; height: 2px; margin-top: 0; }
+            .wa-panel { width: calc(100vw - 40px); right: -10px; }
+            .footer-content { flex-direction: column; text-align: center; }
+            .footer-links { justify-content: center; }
+            .section-title { font-size: 2rem; }
+            .cv-modal-content { padding: 24px; }
+        }
+        @media (max-width: 480px) {
+            .hero-title { font-size: 2rem; }
+            .hero-subtitle { font-size: 1.1rem; }
+            .btn { padding: 12px 24px; font-size: 0.9rem; }
+            .stat-value { font-size: 1.5rem; }
+            .tc-content { padding: 24px; }
+            .contact-form-wrapper { padding: 24px; }
+            .preloader-text { font-size: 0.65rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-ring"></div>
+            <div class="preloader-text">Loading Experience</div>
+            <div class="preloader-progress">
+                <div class="preloader-progress-bar" id="preloadBar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <a href="#" class="nav-logo">
+                <span class="nav-logo-dot"></span>
+                Usama Rasool
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certs</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Available for Opportunities
+                </div>
+                <h1 class="hero-title">
+                    <span class="line">Plant Pathology</span>
+                    <span class="line gradient">Specialist</span>
+                </h1>
+                <p class="hero-subtitle" id="typingText">
+                    <span id="typeText"></span><span class="cursor">|</span>
+                </p>
+                <p class="hero-desc">
+                    MNS University of Agriculture graduate with hands-on expertise in crop scouting, 
+                    disease identification, IPM protocols, and field reporting across Punjab, Pakistan.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-glow">
+                        <span>Get in Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <button class="btn btn-outline" id="cvBtn">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">3+</span>
+                        <span class="stat-label">Years Exp</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">25+</span>
+                        <span class="stat-label">Field Visits</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">60+</span>
+                        <span class="stat-label">Farmers Trained</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-ring ring-1"></div>
+                    <div class="hero-image-ring ring-2"></div>
+                    <div class="hero-image-ring ring-3"></div>
+                    <div class="hero-image-main">
+                        <img src="https://kimi-web-img.moonshot.cn/img/www.azolifesciences.com/1cd0f26d2f7ea7d087eefcfa3e68e6438012e863.jpg" alt="Muhammad Usama Rasool" loading="lazy">
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="floating-card fc-1">
+                        <i class="fas fa-certificate"></i>
+                        <span>FAO Certified</span>
+                    </div>
+                    <div class="floating-card fc-2">
+                        <i class="fas fa-seedling"></i>
+                        <span>IPM Expert</span>
+                    </div>
+                    <div class="floating-card fc-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Khanewal, Punjab</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+            <span style="color: var(--text-tertiary); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px;">Scroll</span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate About <span class="gradient">Agriculture</span></h2>
+                <p class="section-desc">Dedicated to advancing sustainable farming practices through science and innovation</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="about-image-wrapper">
+                        <img src="https://kimi-web-img.moonshot.cn/img/m.agcareers.com/d04dafc0d60fdc83c4c7656137b19d2f859a156e.png" alt="About" loading="lazy">
+                        <div class="about-exp">
+                            <span>3+</span>
+                            <small>Years Experience</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right reveal reveal-right">
+                    <div class="about-card">
+                        <h3><i class="fas fa-user"></i> Professional Profile</h3>
+                        <p>Plant Pathology graduate from <strong>MNS University of Agriculture, Multan</strong> with hands-on experience in crop scouting, disease identification, demonstration plot management, and field reporting.</p>
+                        <p>Certified by <strong>FAO</strong> in plant protection and plant genetic resources. Passionate about sustainable agriculture and modern farming techniques.</p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>usamarasoolmuhammad@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+92 310 6423106</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Jahanian, Khanewal, Punjab</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div>
+                                <h4>Degree</h4>
+                                <p>B.Sc. (Hons.) Agriculture</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-objective">
+                        <div class="obj-icon"><i class="fas fa-bullseye"></i></div>
+                        <div class="obj-content">
+                            <h4>Career Objective</h4>
+                            <p>Seeking a field-based role in agriculture, crop protection, seed science, or environmental compliance to apply academic knowledge and practical field skills in a professional environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Professional <span class="gradient">Journey</span></h2>
+                <p class="section-desc">Hands-on field experience across Punjab agriculture sector</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"><div class="timeline-progress" id="timelineProgress"></div></div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fas fa-clipboard-check"></i></div>
+                    <div class="timeline-card">
+                        <div class="tc-image">
+                            <img src="https://kimi-web-img.moonshot.cn/img/www.biosaline.org/ef1c50fbe902836c0cf726fda935bbb616354b5a.webp" alt="PSER Survey" loading="lazy">
+                            <div class="tc-image-overlay"><i class="fas fa-map-marked-alt"></i> Punjab Socio-Economic Registry</div>
+                        </div>
+                        <div class="tc-content">
+                            <div class="tc-header">
+                                <div class="tc-date"><i class="fas fa-calendar"></i> Feb 2024 - May 2024</div>
+                                <div class="tc-tags">
+                                    <span class="tc-tag">Survey</span>
+                                    <span class="tc-tag">Data Entry</span>
+                                </div>
+                            </div>
+                            <h3>Field Surveyor</h3>
+                            <h4>Punjab Socio-Economic Registry (PSER)</h4>
+                            <ul class="tc-list">
+                                <li>Conducted structured <strong>field surveys</strong> across multiple zones</li>
+                                <li>Maintained accurate sample records, coding, and labeling</li>
+                                <li>Real-time digital data entry with SOP compliance</li>
+                                <li>Timely reporting to supervisors with quality standards</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fas fa-seedling"></i></div>
+                    <div class="timeline-card">
+                        <div class="tc-image">
+                            <img src="https://kimi-web-img.moonshot.cn/img/www.biosaline.org/8950feddcb5e14671d04ae2494f00c1cc2c98b06.webp" alt="Agriculture Extension" loading="lazy">
+                            <div class="tc-image-overlay"><i class="fas fa-tractor"></i> Agriculture Extension</div>
+                        </div>
+                        <div class="tc-content">
+                            <div class="tc-header">
+                                <div class="tc-date"><i class="fas fa-calendar"></i> 2022 - 2023</div>
+                                <div class="tc-tags">
+                                    <span class="tc-tag">IPM</span>
+                                    <span class="tc-tag">Field Trials</span>
+                                    <span class="tc-tag">Training</span>
+                                </div>
+                            </div>
+                            <h3>Agriculture Extension Intern</h3>
+                            <h4>MNS University of Agriculture, Multan</h4>
+                            <ul class="tc-list">
+                                <li><strong>25+ field visits</strong> for crop scouting and pest identification</li>
+                                <li>Established and managed <strong>3 demonstration plots</strong></li>
+                                <li>Implemented <strong>IPM protocols</strong> for safe pest control</li>
+                                <li>Delivered <strong>5+ farmer training sessions</strong> reaching 60+ farmers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">Technical <span class="gradient">Expertise</span></h2>
+                <p class="section-desc">Comprehensive skill set in agriculture and technology</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-main">
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fas fa-search"></i></div>
+                        <h3>Crop Scouting</h3>
+                        <p>Field crop performance evaluation and monitoring</p>
+                        <div class="skill-bar"><div class="skill-fill" data-value="95%"></div></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fas fa-bug"></i></div>
+                        <h3>IPM Protocols</h3>
+                        <p>Integrated Pest Management and safe pesticide application</p>
+                        <div class="skill-bar"><div class="skill-fill" data-value="90%"></div></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fas fa-vial"></i></div>
+                        <h3>Disease Identification</h3>
+                        <p>Plant disease diagnosis and pathology assessment</p>
+                        <div class="skill-bar"><div class="skill-fill" data-value="92%"></div></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Data Analysis</h3>
+                        <p>Field data collection, SOP compliance, and reporting</p>
+                        <div class="skill-bar"><div class="skill-fill" data-value="88%"></div></div>
+                    </div>
+                </div>
+                <div class="skills-sidebar">
+                    <div class="skill-category reveal">
+                        <h4><i class="fas fa-tools"></i> Technical Skills</h4>
+                        <div class="skill-pills">
+                            <span class="pill">Crop Scouting</span>
+                            <span class="pill">Disease ID</span>
+                            <span class="pill">IPM</span>
+                            <span class="pill">Pesticide Safety</span>
+                            <span class="pill">Seed Science</span>
+                            <span class="pill">Field Trials</span>
+                            <span class="pill">Soil Analysis</span>
+                            <span class="pill">Mycology</span>
+                            <span class="pill">Epidemiology</span>
+                            <span class="pill">Post-Harvest</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <h4><i class="fas fa-laptop-code"></i> Software</h4>
+                        <div class="skill-pills">
+                            <span class="pill">MS Office</span>
+                            <span class="pill">Excel Analysis</span>
+                            <span class="pill">PowerPoint</span>
+                            <span class="pill">Data Entry</span>
+                            <span class="pill">Report Writing</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <h4><i class="fas fa-language"></i> Languages</h4>
+                        <div class="language-bars">
+                            <div class="lang-item">
+                                <span>Urdu</span>
+                                <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+                                <span class="lang-level">Native</span>
+                            </div>
+                            <div class="lang-item">
+                                <span>Punjabi</span>
+                                <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+                                <span class="lang-level">Native</span>
+                            </div>
+                            <div class="lang-item">
+                                <span>English</span>
+                                <div class="lang-bar"><div class="lang-fill" style="width:85%"></div></div>
+                                <span class="lang-level">Professional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic <span class="gradient">Background</span></h2>
+                <p class="section-desc">Strong educational foundation in agricultural sciences</p>
+            </div>
+            <div class="edu-timeline">
+                <div class="edu-item reveal">
+                    <div class="edu-line"><div class="edu-dot"></div></div>
+                    <div class="edu-card active">
+                        <span class="edu-badge">Latest</span>
+                        <span class="edu-year">2020 - 2022</span>
+                        <div class="edu-icon"><i class="fas fa-university"></i></div>
+                        <div class="edu-content">
+                            <h3>B.Sc. (Hons.) Agriculture</h3>
+                            <h4>Plant Pathology</h4>
+                            <p class="edu-institute">MNS University of Agriculture, Multan</p>
+                            <div class="edu-courses">
+                                <span>Seed & Post-Harvest Pathology</span>
+                                <span>Plant Breeding</span>
+                                <span>Seed Science</span>
+                                <span>Genetics & Biotechnology</span>
+                                <span>Diseases of Field Crops</span>
+                                <span>Plant Disease Epidemiology</span>
+                                <span>Mycology</span>
+                                <span>Soil-borne Pathogens</span>
+                                <span>Pesticides & Application</span>
+                                <span>Beneficial Microorganisms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-item reveal">
+                    <div class="edu-line"><div class="edu-dot"></div></div>
+                    <div class="edu-card">
+                        <span class="edu-year">2018 - 2020</span>
+                        <div class="edu-icon"><i class="fas fa-school"></i></div>
+                        <div class="edu-content">
+                            <h3>F.Sc. (Pre-Medical)</h3>
+                            <h4>BISE Multan</h4>
+                            <p class="edu-institute">Punjab College Jahanian</p>
+                            <div class="edu-courses">
+                                <span>Biology</span>
+                                <span>Chemistry</span>
+                                <span>Physics</span>
+                                <span>English</span>
+                                <span>Urdu</span>
+                                <span>Islamic Studies</span>
+                                <span>Pakistan Studies</span>
+                            </div>
+                            <div class="edu-grade">
+                                <span class="grade-label">Grade:</span>
+                                <span class="grade-value">76.7%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-item reveal">
+                    <div class="edu-line"><div class="edu-dot"></div></div>
+                    <div class="edu-card">
+                        <span class="edu-year">2015 - 2017</span>
+                        <div class="edu-icon"><i class="fas fa-book"></i></div>
+                        <div class="edu-content">
+                            <h3>Secondary School Certificate</h3>
+                            <h4>Science Group</h4>
+                            <p class="edu-institute">Govt. High School Jahanian, BISE Multan</p>
+                            <div class="edu-courses">
+                                <span>Biology</span>
+                                <span>Chemistry</span>
+                                <span>Physics</span>
+                                <span>Mathematics</span>
+                                <span>English</span>
+                                <span>Urdu</span>
+                                <span>Islamic Studies</span>
+                                <span>Pakistan Studies</span>
+                            </div>
+                            <div class="edu-grade">
+                                <span class="grade-label">Grade:</span>
+                                <span class="grade-value">84% (A+)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Certifications</span>
+                <h2 class="section-title">Professional <span class="gradient">Credentials</span></h2>
+                <p class="section-desc">Recognized certifications from leading organizations</p>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-globe"></i></div>
+                    <div class="cert-content">
+                        <h4>National Plant Protection Organization (IPPC)</h4>
+                        <p>FAO eLearning Academy</p>
+                        <span class="cert-badge">FAO Certified</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-dna"></i></div>
+                    <div class="cert-content">
+                        <h4>Plant Genetic Resources Documentation</h4>
+                        <p>FAO eLearning Academy</p>
+                        <span class="cert-badge">FAO Certified</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-users-cog"></i></div>
+                    <div class="cert-content">
+                        <h4>Soft Skills Training</h4>
+                        <p>ICMPD (EU-backed) & OEC Pakistan</p>
+                        <span class="cert-badge">International</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-chart-pie"></i></div>
+                    <div class="cert-content">
+                        <h4>Data-Based Decision Making</h4>
+                        <p>Udemy</p>
+                        <span class="cert-badge">Professional</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-database"></i></div>
+                    <div class="cert-content">
+                        <h4>Foundations: Data, Data, Everywhere</h4>
+                        <p>Google / Coursera</p>
+                        <span class="cert-badge">Google Certified</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-laptop"></i></div>
+                    <div class="cert-content">
+                        <h4>Mastering Microsoft Office Suite</h4>
+                        <p>PSDI</p>
+                        <span class="cert-badge">PSDI Certified</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-tasks"></i></div>
+                    <div class="cert-content">
+                        <h4>Professional Diploma in Program Management</h4>
+                        <p>MTF Institute / Udemy</p>
+                        <span class="cert-badge">Professional</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-seedling"></i></div>
+                    <div class="cert-content">
+                        <h4>Plant Pathology & Disease Management</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-leaf"></i></div>
+                    <div class="cert-content">
+                        <h4>Integrated Pest Management (IPM)</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                    <div class="cert-content">
+                        <h4>Soil Science & Fertility</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-tractor"></i></div>
+                    <div class="cert-content">
+                        <h4>Agricultural Extension</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-spa"></i></div>
+                    <div class="cert-content">
+                        <h4>Horticulture & Post-Harvest</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-tint"></i></div>
+                    <div class="cert-content">
+                        <h4>Irrigation & Water Management</h4>
+                        <p>MNS University of Agriculture</p>
+                        <span class="cert-badge">Agriculture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's <span class="gradient">Connect</span></h2>
+                <p class="section-desc">Ready to collaborate on agriculture and sustainability projects</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal reveal-left">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:usamarasoolmuhammad@gmail.com">usamarasoolmuhammad@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+923106423106">+92 310 6423106</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/923106423106" target="_blank">+92 310 6423106</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Jahanian, District Khanewal, Punjab, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/muhammad-usama-rasool-" target="_blank">Muhammad Usama Rasool</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal reveal-right">
+                    <div class="form-header">
+                        <h3>Send a Message</h3>
+                        <p>I'll get back to you within 24 hours</p>
+                    </div>
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="formName" placeholder="Your Name" required>
+                            <i class="fas fa-user"></i>
+                            <span class="error-msg">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="formEmail" placeholder="Your Email" required>
+                            <i class="fas fa-envelope"></i>
+                            <span class="error-msg">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="formSubject" placeholder="Subject" required>
+                            <i class="fas fa-tag"></i>
+                            <span class="error-msg">Please enter a subject</span>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="formMessage" rows="5" placeholder="Your Message" required></textarea>
+                            <i class="fas fa-comment"></i>
+                            <span class="error-msg">Please enter your message</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="nav-logo-dot"></span>
+                        Usama Rasool
+                    </a>
+                    <p>Plant Pathology & Agriculture Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/muhammad-usama-rasool-" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/923106423106" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:usamarasoolmuhammad@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 Muhammad Usama Rasool. All rights reserved.</p>
+                <p class="ref">Crafted with passion for agriculture</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Chat -->
+    <div class="wa-chat" id="waChat">
+        <button class="wa-toggle" id="waToggle" aria-label="Open WhatsApp chat">
+            <i class="fab fa-whatsapp"></i>
+            <span class="wa-badge">1</span>
+        </button>
+        <div class="wa-panel" id="waPanel">
+            <div class="wa-header">
+                <div class="wa-avatar">
+                    <img src="https://kimi-web-img.moonshot.cn/img/www.azolifesciences.com/1cd0f26d2f7ea7d087eefcfa3e68e6438012e863.jpg" alt="Usama">
+                </div>
+                <div class="wa-info">
+                    <h4>Usama Rasool</h4>
+                    <div class="wa-status"><span class="wa-status-dot"></span>Online</div>
+                </div>
+                <button class="wa-close" id="waClose" aria-label="Close chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="wa-body">
+                <div class="wa-msg">
+                    <p>Hello! I'm Usama, a Plant Pathology specialist. How can I help you today?</p>
+                    <span class="time">Just now</span>
+                </div>
+            </div>
+            <div class="wa-quick">
+                <button class="wa-quick-btn" data-msg="Hi, I want to discuss agriculture opportunities">Agriculture Opportunities</button>
+                <button class="wa-quick-btn" data-msg="Can you help with crop disease identification?">Disease ID Help</button>
+                <button class="wa-quick-btn" data-msg="I need IPM consultation">IPM Consultation</button>
+                <button class="wa-quick-btn" data-msg="Let's connect on LinkedIn">Connect on LinkedIn</button>
+            </div>
+            <div class="wa-footer">
+                <input type="text" id="waInput" placeholder="Type a message...">
+                <button class="wa-send" id="waSend"><i class="fab fa-whatsapp"></i> Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CV Download Modal -->
+    <div class="cv-modal" id="cvModal">
+        <div class="cv-modal-content" style="position:relative;">
+            <button class="cv-close" id="cvClose"><i class="fas fa-times"></i></button>
+            <h3>Download CV</h3>
+            <p>Choose your preferred format:</p>
+            <div class="cv-options">
+                <a href="assets/cv.pdf" download class="cv-option">
+                    <i class="fas fa-file-pdf"></i>
+                    <div>
+                        <h4>PDF Format</h4>
+                        <p>Professional printable CV</p>
+                    </div>
+                </a>
+                <button class="cv-option" id="cvPrintBtn">
+                    <i class="fas fa-print"></i>
+                    <div>
+                        <h4>Print Version</h4>
+                        <p>Optimized for printing</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-top" id="backTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // ===== PRELOADER =====
+        const preloadBar = document.getElementById('preloadBar');
+        let progress = 0;
+        const preloadInterval = setInterval(() => {
+            progress += Math.random() * 15;
+            if (progress >= 100) {
+                progress = 100;
+                clearInterval(preloadInterval);
+                setTimeout(() => {
+                    document.getElementById('preloader').classList.add('hidden');
+                }, 500);
+            }
+            preloadBar.style.width = progress + '%';
+        }, 200);
+
+        // ===== THREE.JS HERO BACKGROUND =====
+        (function() {
+            const canvas = document.getElementById('hero-canvas');
+            if (!canvas) return;
+
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+            const particleCount = 80;
+            const positions = new Float32Array(particleCount * 3);
+            const colors = new Float32Array(particleCount * 3);
+            const sizes = new Float32Array(particleCount);
+
+            for (let i = 0; i < particleCount; i++) {
+                positions[i * 3] = (Math.random() - 0.5) * 20;
+                positions[i * 3 + 1] = (Math.random() - 0.5) * 20;
+                positions[i * 3 + 2] = (Math.random() - 0.5) * 10;
+
+                const color = new THREE.Color();
+                color.setHSL(0.35 + Math.random() * 0.1, 0.8, 0.5);
+                colors[i * 3] = color.r;
+                colors[i * 3 + 1] = color.g;
+                colors[i * 3 + 2] = color.b;
+
+                sizes[i] = Math.random() * 3 + 1;
+            }
+
+            const geometry = new THREE.BufferGeometry();
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+            const material = new THREE.PointsMaterial({
+                size: 0.15, vertexColors: true, transparent: true,
+                opacity: 0.8, blending: THREE.AdditiveBlending
+            });
+
+            const particles = new THREE.Points(geometry, material);
+            scene.add(particles);
+
+            const shapes = [];
+            const shapeGeometries = [
+                new THREE.IcosahedronGeometry(0.4, 0),
+                new THREE.OctahedronGeometry(0.3, 0),
+                new THREE.TetrahedronGeometry(0.35, 0)
+            ];
+
+            for (let i = 0; i < 12; i++) {
+                const geom = shapeGeometries[i % 3];
+                const mat = new THREE.MeshBasicMaterial({
+                    color: i % 2 === 0 ? 0x10b981 : 0xf59e0b,
+                    transparent: true, opacity: 0.15, wireframe: true
+                });
+                const mesh = new THREE.Mesh(geom, mat);
+                mesh.position.set(
+                    (Math.random() - 0.5) * 15,
+                    (Math.random() - 0.5) * 15,
+                    (Math.random() - 0.5) * 8
+                );
+                mesh.userData = {
+                    speed: Math.random() * 0.005 + 0.002,
+                    rotSpeed: Math.random() * 0.01 + 0.005,
+                    yOffset: Math.random() * Math.PI * 2
+                };
+                scene.add(mesh);
+                shapes.push(mesh);
+            }
+
+            camera.position.z = 8;
+
+            let mouseX = 0, mouseY = 0;
+            document.addEventListener('mousemove', (e) => {
+                mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+                mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+            }, { passive: true });
+
+            let isVisible = true;
+            const heroObserver = new IntersectionObserver((entries) => {
+                isVisible = entries[0].isIntersecting;
+            }, { threshold: 0.1 });
+            heroObserver.observe(document.getElementById('hero'));
+
+            function animate() {
+                requestAnimationFrame(animate);
+                if (!isVisible) return;
+                const time = Date.now() * 0.001;
+                particles.rotation.y += 0.001;
+                particles.rotation.x += 0.0005;
+                particles.rotation.y += mouseX * 0.001;
+                particles.rotation.x += mouseY * 0.001;
+                shapes.forEach((shape, i) => {
+                    shape.rotation.x += shape.userData.rotSpeed;
+                    shape.rotation.y += shape.userData.rotSpeed * 0.7;
+                    shape.position.y += Math.sin(time + shape.userData.yOffset) * 0.002;
+                    shape.position.x += Math.cos(time * 0.5 + i) * 0.001;
+                });
+                camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.02;
+                camera.position.y += (mouseY * 0.5 - camera.position.y) * 0.02;
+                camera.lookAt(scene.position);
+                renderer.render(scene, camera);
+            }
+            animate();
+
+            window.addEventListener('resize', () => {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            });
+        })();
+
+        // ===== TYPING EFFECT =====
+        const typeText = document.getElementById('typeText');
+        const phrases = ['Crop Scouting Expert', 'IPM Specialist', 'Field Researcher', 'Agriculture Professional'];
+        let phraseIndex = 0, charIndex = 0, isDeleting = false;
+
+        function type() {
+            const current = phrases[phraseIndex];
+            if (isDeleting) {
+                typeText.textContent = current.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typeText.textContent = current.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            let speed = isDeleting ? 50 : 100;
+            if (!isDeleting && charIndex === current.length) {
+                speed = 2000; isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                speed = 500;
+            }
+            setTimeout(type, speed);
+        }
+        setTimeout(type, 1000);
+
+        // ===== NAVIGATION =====
+        const nav = document.getElementById('nav');
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        }, { passive: true });
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // ===== SCROLL REVEAL =====
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ===== SKILL BARS =====
+        const skillBars = document.querySelectorAll('.skill-fill');
+        const skillObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bar = entry.target;
+                    bar.style.width = bar.dataset.value;
+                    bar.classList.add('active');
+                    skillObserver.unobserve(bar);
+                }
+            });
+        }, { threshold: 0.5 });
+        skillBars.forEach(bar => skillObserver.observe(bar));
+
+        // ===== TIMELINE PROGRESS =====
+        const timelineProgress = document.getElementById('timelineProgress');
+        if (timelineProgress) {
+            const timelineObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    timelineProgress.style.height = '100%';
+                }
+            }, { threshold: 0.1 });
+            timelineObserver.observe(document.querySelector('.timeline'));
+        }
+
+        // ===== BACK TO TOP =====
+        const backTop = document.getElementById('backTop');
+        window.addEventListener('scroll', () => {
+            backTop.classList.toggle('visible', window.scrollY > 500);
+        }, { passive: true });
+        backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // ===== WHATSAPP CHAT =====
+        const waToggle = document.getElementById('waToggle');
+        const waPanel = document.getElementById('waPanel');
+        const waClose = document.getElementById('waClose');
+        const waInput = document.getElementById('waInput');
+        const waSend = document.getElementById('waSend');
+
+        waToggle.addEventListener('click', () => waPanel.classList.toggle('active'));
+        waClose.addEventListener('click', () => waPanel.classList.remove('active'));
+
+        document.querySelectorAll('.wa-quick-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const msg = btn.dataset.msg;
+                window.open(`https://wa.me/923106423106?text=${encodeURIComponent(msg)}`, '_blank');
+            });
+        });
+
+        waSend.addEventListener('click', () => {
+            const msg = waInput.value.trim();
+            if (msg) {
+                window.open(`https://wa.me/923106423106?text=${encodeURIComponent(msg)}`, '_blank');
+                waInput.value = '';
+            }
+        });
+
+        waInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') waSend.click();
+        });
+
+        // ===== CV MODAL =====
+        const cvBtn = document.getElementById('cvBtn');
+        const cvModal = document.getElementById('cvModal');
+        const cvClose = document.getElementById('cvClose');
+        const cvPrintBtn = document.getElementById('cvPrintBtn');
+
+        cvBtn.addEventListener('click', () => cvModal.classList.add('active'));
+        cvClose.addEventListener('click', () => cvModal.classList.remove('active'));
+        cvModal.addEventListener('click', (e) => {
+            if (e.target === cvModal) cvModal.classList.remove('active');
+        });
+        cvPrintBtn.addEventListener('click', () => window.print());
+
+        // ===== CONTACT FORM =====
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const formStatus = document.getElementById('formStatus');
+
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            let valid = true;
+            const fields = ['formName', 'formEmail', 'formSubject', 'formMessage'];
+            fields.forEach(id => {
+                const el = document.getElementById(id);
+                const group = el.closest('.form-group');
+                if (!el.value.trim()) {
+                    group.classList.add('error');
+                    valid = false;
+                } else {
+                    group.classList.remove('error');
+                }
+            });
+
+            if (!valid) {
+                submitBtn.classList.add('shake');
+                setTimeout(() => submitBtn.classList.remove('shake'), 500);
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            try {
+                const response = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: new FormData(contactForm),
+                    headers: { Accept: 'application/json' }
+                });
+
+                if (response.ok) {
+                    submitBtn.classList.add('success');
+                    submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+                    formStatus.className = 'form-status success';
+                    formStatus.textContent = 'Thank you! Your message has been sent successfully.';
+                    contactForm.reset();
+
+                    const messages = JSON.parse(localStorage.getItem('portfolio_messages') || '[]');
+                    messages.push({
+                        name: document.getElementById('formName').value,
+                        email: document.getElementById('formEmail').value,
+                        subject: document.getElementById('formSubject').value,
+                        message: document.getElementById('formMessage').value,
+                        date: new Date().toISOString()
+                    });
+                    localStorage.setItem('portfolio_messages', JSON.stringify(messages));
+                } else {
+                    throw new Error('Failed to send');
+                }
+            } catch (err) {
+                submitBtn.classList.add('error');
+                submitBtn.innerHTML = '<i class="fas fa-exclamation-circle"></i> Failed';
+                formStatus.className = 'form-status error';
+                formStatus.textContent = 'Something went wrong. Please try again or contact directly via email/WhatsApp.';
+            }
+
+            setTimeout(() => {
+                submitBtn.disabled = false;
+                submitBtn.classList.remove('success', 'error');
+                submitBtn.innerHTML = '<span>Send Message</span><i class="fas fa-paper-plane"></i>';
+            }, 3000);
+        });
+
+        document.querySelectorAll('.form-group input, .form-group textarea').forEach(el => {
+            el.addEventListener('input', () => {
+                el.closest('.form-group').classList.remove('error');
+            });
+        });
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // ===== ACTIVE NAV LINK =====
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+            });
+        }, { passive: true });
+    </script>
+</body>
+</html>
